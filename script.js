@@ -51,23 +51,23 @@ const setValuesOfAir = airData => {
 
 	switch (aqi) {
 		case 1:
-			airStat = "Good"
+			airStat = "Good (Kondisi Baik)"
 			color = "rgb(19, 201, 28)"
 			break
 			case 2:
-				airStat = "Fair"
+				airStat = "Fair (Cukup Baik)"
 				color = "rgb(15, 134, 25)"
 				break
 			case 3:
-				airStat = "Moderate"
+				airStat = "Moderate (Kondisi Sedang)"
 				color = "rgb(201, 204, 13)"
 				break
 			case 4:
-				airStat = "Poor"
+				airStat = "Poor (Kondisi Buruk)"
 				color = "rgb(204, 83, 13)"
 				break
 		case 5:
-			airStat = "Very Poor"
+			airStat = "Very Poor (Kondisi Sangat Buruk)"
 			color = "rgb(204, 13, 13)"
 			break
 		default:
